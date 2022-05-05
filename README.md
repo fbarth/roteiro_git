@@ -38,16 +38,6 @@ git commit -m "estrutura inicial"
 git push 
 ````
 
-Eu posso fazer estas etapas de *add*, *commit* e *push* inúmeras vezes que o GitHub irá manter todas as versões dos meus arquivos. 
-
-6. Além disso, se for necessário, eu consigo baixar todo o projeto em uma outra máquina fazendo o *clone* do mesmo: 
-
-````bash
-git clone https://github.com/fbarth/roteiro_git.git
-````
-
-Percebam que a URL informada acima é a mesma informada no item 3. Quando você for fazer isto com o seu projeto você terá que informar a URL do seu projeto. 
-
 
 
 
