@@ -58,9 +58,17 @@ Ok! Agora está na hora de compartilhar o projeto com outros desenvolvedores. Pa
 
 O novo desenvolvedor foi adicionado como colaborador e agora poderá fazer commits neste repositório remoto! Quando os repositórios são públicos, qualquer pessoa pode clonar ou fazer um fork do seu repositório remoto. Porém, somente os colaboradores podem fazer commits neste repositório. Em outras palavras, todos podem ler o código, mas apenas os colaboradores podem escrever.
 
-* conflito no arquivo `src/gato.py`
+## Criando conflitos para aprendermos a usar o merge
 
-* conflito no arquivo `src/pessoa.py`
+* O desenvolvedor 2 altera o método `mensagem()` na classe Gato, faz `commit` e `push`. O desenvolvedor 1 faz o mesmo. Mas quando ele executa o `push` então ele é obrigado a fazer um `pull`, `merge` e então enviar para o repositório remoto. 
+
+* O mesmo acontece quando os desenvolvedores resolvem ao mesmo tempo adicionar o método `gosta_futebol()` na classe Pessoa.
+
+Tudo isto acontecendo no branch `main`. 
+
+## Usando branches diferentes
+
+
 
 
 
