@@ -1,5 +1,6 @@
 from pessoa import Pessoa
 from gato import Gato
+from galinha import Galinha
 
 qtd_pessoas = int(input('Quantas pessoas devem ser cadastradas?'))
 pessoas = []
@@ -16,3 +17,7 @@ for i in range(qtd_pessoas):
     print(pessoas[i].mesagem())
 
 print(g1.mensagem())
+
+ga1 = Galinha()
+print(ga1.mensagem())
+
