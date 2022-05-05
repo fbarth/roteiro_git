@@ -25,4 +25,30 @@ git branch -M main
 git push -u origin main
 ````
 
+Neste momento, se você escolheu a primeira opção então você vai ver que todos os seus arquivos que estão no diretório local escolhidos agora então na URL informada acima. Basta dar um refresh na URL acima. 
+
+4. Adicionar novos arquivos ao seu projeto na sua máquina local:
+
+* ver o status dos arquivos modificados:
+
+````bash
+git status
+````
+
+* você pode adicionar estas modificações em uma *staging area*, dizendo para o git que no próximo *commit* ele deverá considerar tais mudanças:
+
+````bash
+git add .
+````
+
+5. Fazendo o *commit* para o repositório remoto: 
+
+````bash
+git commit -m "estrutura inicial" 
+````
+
+
+
+
+
 
