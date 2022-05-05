@@ -14,7 +14,7 @@ for i in range(qtd_pessoas):
 g1 = Gato('Bola', 1)
 
 for i in range(qtd_pessoas): 
-    print(pessoas[i].mesagem())
+    print(pessoas[i].mensagem())
 
 print(g1.mensagem())
 
