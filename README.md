@@ -38,6 +38,8 @@ git commit -m "estrutura inicial"
 git push 
 ````
 
+esta linha veio da maquina remota
+
 
 
 
