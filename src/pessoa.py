@@ -7,9 +7,4 @@ class Pessoa:
     def mensagem(self):
         return f'Olá! Meu nome é {self.nome} e eu tenho {self.idade} anos.'
 
-    def kkkkk(self):
-        print('lascou')
-        
-    def xxxx(self):
-        pass
 
