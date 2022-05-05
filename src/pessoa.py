@@ -10,3 +10,6 @@ class Pessoa:
     def kkkkk(self):
         print('lascou')
         
+    def xxxx(self):
+        pass
+
