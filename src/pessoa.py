@@ -7,4 +7,7 @@ class Pessoa:
     def mensagem(self):
         return f'Olá! Meu nome é {self.nome} e eu tenho {self.idade} anos.'
 
+    def gosta_futebol(self):
+        return 'Sim! Todo mundo gosta de futebol!'
+
 
