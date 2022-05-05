@@ -68,6 +68,32 @@ Tudo isto acontecendo no branch `main`.
 
 ## Usando branches diferentes
 
+````bash
+git pull
+git branch entrada_programa
+````
+
+Digitando `git branch` então temos: 
+
+````bash
+  entrada_programa
+* main
+````
+
+Para mover para o branch recem criado: 
+
+````bash
+git checkout entrada_programa
+````
+
+Para mandar o novo branch para o repositório remoto: 
+
+````bash
+git push origin entrada_programa
+````
+
+
+
 
 
 
