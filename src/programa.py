@@ -18,6 +18,3 @@ for i in range(qtd_pessoas):
 
 print(g1.mensagem())
 
-ga1 = Galinha()
-print(ga1.mensagem())
-
